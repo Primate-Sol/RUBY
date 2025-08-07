@@ -11,7 +11,7 @@ set :server, :puma
 set :bind, '0.0.0.0'
 set :port, ENV.fetch("PORT", "8080")
 
-# Log requests
+# Log request
 before do
   logger.info("Received request: #{request.request_method} #{request.path} with params: #{params.inspect}")
 end
