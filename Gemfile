@@ -15,4 +15,4 @@ gem "cowsay", "~> 0.3.0"
 
 gem "base64", "~> 0.3.0"
 
-gem "rackup", "~> 2.2"
+gem "rackup", "~> 2.3"
